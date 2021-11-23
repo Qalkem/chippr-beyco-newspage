@@ -1,122 +1,262 @@
 @media only screen and (max-width: 640px) {
- body{
-   align-items: center;
-   block-size: fit-content;
-   margin-left:20px;
-   margin-right:20px;
- 
-
- }
- 
-
-.StylguideTitel{
-  display:flex;
-  gap:150px;
- }
-
- .LogoWrapper{
-   max-width:20vh;
-   max-height:20vh;
- }
-
- .LogoAndLink{
-  display:flex;
-  gap: 10vh;
- }
-
- .Colors{
-   display:grid;
-   gap:40px;
-   grid-template-columns: 1fr ;
-   
- }
- ul{
-   display:flex;
-   gap:130px;
-
-
-   
-
- }
-
- div > p{
-   margin-left:-20px;
-   gap: 30px;
- 
-   
- }
- 
-
- .Green{
-   background-color:#3A8070;
-   margin-left:-35px;
-   min-width: 5rem;
-   max-width: 5rem;
-   min-height: 4rem;
-   padding:0.1rem;
-   list-style-type: none;
-   outline: 1px solid grey;
- }
-
- .Black{
-   background-color:#000000;
-   margin-left:-35px;
-   min-width: 5rem;
-   max-width: 5rem;
-   min-height: 4rem;
-   padding:0.1rem;
-   list-style-type: none;
-   outline: 1px solid grey;
- }
-
- .Grey{
-   background-color: #d9d9d9;
-   margin-left:-35px;
-   min-width: 5rem;
-   max-width: 5rem;
-   min-height: 4rem;
-   padding:0.1rem;
-   list-style-type: none;
-   outline: 1px solid grey;
- }
- .LightGrey{
-   background-color:#F6f7f9 ;
-    margin-left:-65px;
-   min-width: 5rem;
-   max-width: 5rem;
-   min-height: 4rem;
-   padding:0.1rem;
-   list-style-type: none;
-   outline: 1px solid grey;
- }
-.LightGreen{
-  background-color: #EBF2F1;
-  margin-left:-35px;
-  min-width: 5rem;
-  max-width: 5rem;
-  min-height: 4rem;
-  padding:0.1rem;
-  list-style-type: none;
-  outline: 1px solid grey;
+  body{
+    align-items: center;
+    block-size: fit-content;
+    margin-left:20px;
+    margin-right:20px;
   
-}
-.White{
-  background-color: #FFFFFF;
-  outline: 1px solid grey;
-  margin-left:-35px;
-  min-width: 5rem;
-  max-width: 5rem;
-  min-height: 4rem;
-  padding:0.1rem;
-  list-style-type: none;
-}color: 
-
-H1:focus{
-  background-color: #3A8070;
-  
-  
-}
  
   }
-
+  
  
+ .StylguideTitel{
+   display:flex;
+   gap:150px;
+  }
+ 
+  .LogoWrapper{
+    max-width:20vh;
+    max-height:20vh;
+  }
+ 
+  .LogoAndLink{
+   display:flex;
+   gap: 10vh;
+  }
+ 
+  .Colors{
+    display:grid;
+    gap:40px;
+    grid-template-columns: 1fr ;
+    
+  }
+  ul{
+    display:flex;
+    gap:130px;
+ 
+ 
+    
+ 
+  }
+ 
+  div > p{
+    margin-left:-20px;
+    gap: 30px;
+  
+    
+  }
+  
+ 
+  .Green{
+    background-color:#3A8070;
+    margin-left:-35px;
+    min-width: 5rem;
+    max-width: 5rem;
+    min-height: 4rem;
+    padding:0.1rem;
+    list-style-type: none;
+    outline: 1px solid grey;
+  }
+ 
+  .Black{
+    background-color:#000000;
+    margin-left:-35px;
+    min-width: 5rem;
+    max-width: 5rem;
+    min-height: 4rem;
+    padding:0.1rem;
+    list-style-type: none;
+    outline: 1px solid grey;
+  }
+ 
+  .Grey{
+    background-color: #d9d9d9;
+    margin-left:-35px;
+    min-width: 5rem;
+    max-width: 5rem;
+    min-height: 4rem;
+    padding:0.1rem;
+    list-style-type: none;
+    outline: 1px solid grey;
+  }
+  .LightGrey{
+    background-color:#F6f7f9 ;
+     margin-left:-65px;
+    min-width: 5rem;
+    max-width: 5rem;
+    min-height: 4rem;
+    padding:0.1rem;
+    list-style-type: none;
+    outline: 1px solid grey;
+  }
+ .LightGreen{
+   background-color: #EBF2F1;
+   margin-left:-35px;
+   min-width: 5rem;
+   max-width: 5rem;
+   min-height: 4rem;
+   padding:0.1rem;
+   list-style-type: none;
+   outline: 1px solid grey;
+   
+ }
+ .White{
+   background-color: #FFFFFF;
+   outline: 1px solid grey;
+   margin-left:-35px;
+   min-width: 5rem;
+   max-width: 5rem;
+   min-height: 4rem;
+   padding:0.1rem;
+   list-style-type: none;
+ }
+ 
+ H1:focus{
+   background-color: #3A8070;
+   
+
+ }
+   }
+ 
+   @media only screen and (min-width: 960px) {
+
+  Body{
+   
+      align-items: center;
+      block-size: fit-content;
+      margin-left:200px;
+      margin-right:20px;
+       
+    
+   
+    }
+    Header > H1{
+      
+      color: blue;
+      inline-size: 350px; 
+      overflow: hidden;
+    
+    }
+    
+   
+   .StyleGuideTitel {
+
+    display:flex;
+     gap:1050px;
+    }
+   
+    .LogoWrapper{
+    
+      max-width:500vh;
+      max-height:20vh;
+    }
+ 
+   
+    .LogoAndLink{
+      display:flex;
+       
+     gap: 100vh;
+    }
+   
+    .Colors{
+      
+      display:flex; 
+      gap: 400px;
+       
+       
+      
+    }
+    div > p{
+   
+      margin-top:200px;
+      gap: 30px;
+    
+      
+    }
+
+    .FirstH3{
+      position: absolute;
+      margin-left:560px;
+      margin-bottom:700px;
+      
+    }
+    ul{
+      display:grid;
+      gap:130px;
+      margin-top: 300px;
+   
+   
+      
+   
+    }
+
+    
+    
+   
+    .Green{
+      background-color:#3A8070;
+      margin-left:-35px;
+      min-width: 5rem;
+      max-width: 5rem;
+      min-height: 4rem;
+      padding:0.1rem;
+      list-style-type: none;
+      outline: 1px solid grey;
+    }
+   
+    .Black{
+      background-color:#000000;
+      margin-left:-35px;
+      min-width: 5rem;
+      max-width: 5rem;
+      min-height: 4rem;
+      padding:0.1rem;
+      list-style-type: none;
+      outline: 1px solid grey;
+    }
+   
+    .Grey{
+      background-color: #d9d9d9;
+      margin-left:-35px;
+      min-width: 5rem;
+      max-width: 5rem;
+      min-height: 4rem;
+      padding:0.1rem;
+      list-style-type: none;
+      outline: 1px solid grey;
+    }
+    .LightGrey{
+      background-color:#F6f7f9 ;
+       margin-left:-65px;
+      min-width: 5rem;
+      max-width: 5rem;
+      min-height: 4rem;
+      padding:0.1rem;
+      list-style-type: none;
+      outline: 1px solid grey;
+    }
+   .LightGreen{
+     background-color: #EBF2F1;
+     margin-left:-35px;
+     min-width: 5rem;
+     max-width: 5rem;
+     min-height: 4rem;
+     padding:0.1rem;
+     list-style-type: none;
+     outline: 1px solid grey;
+     
+   }
+   .White{
+     background-color: #FFFFFF;
+     outline: 1px solid grey;
+     margin-left:-35px;
+     min-width: 5rem;
+     max-width: 5rem;
+     min-height: 4rem;
+     padding:0.1rem;
+     list-style-type: none;
+     
+   
+ 
+   }
+  }
