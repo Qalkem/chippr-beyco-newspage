@@ -1,0 +1,82 @@
+body{
+margin:0;
+display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+
+
+}
+.NavTitel{
+    display:flex;
+    position:fixed;
+
+}
+.LogoWrapper{
+max-width:100px;
+
+}
+.LogoAndLink{
+    display:flex;
+    list-style-type: none;
+    Gap:40px;
+
+}
+
+.SignUp{
+    display: flex;
+    list-style-type: none;
+    Gap:40px;
+    margin-left:500px;
+    margin-bottom: x;
+}
+
+.languageBox{
+    
+    margin-left: 4vh;
+    color:lightgreen;
+    margin-bottom: 30px;
+}
+
+.CoffeeCup{
+    min-width:207.8vh;
+    max-width: 100%;
+    max-height:40vh;
+    margin-top: 10vh;
+    
+
+}
+
+ .SearchBox {
+     outline: 2rem solid rgb(255, 255, 255);
+     background-image:url(/assets/coffee.jfif);
+     justify-content: center;
+     min-width:207.9vh;
+     min-height: 10vh;
+     margin-top: 3em;
+     display:flex;
+     color:black;
+     
+
+ }
+
+ 
+ .SearchBox > h1{
+     outline: 34px solid white;
+     border-top-left-radius: 0.5px;
+     border-top-right-radius: 0.5px;
+   background-color: white;
+   min-width: 30em;
+   background-size: 40px;
+   justify-content: center;
+   display: flex;
+   
+   
+   
+}
+
+ .SearchBox  p {
+     color: #3A8070;
+    
+ }
+ .Welcome{
+     margin-top: 6em;
+ }
