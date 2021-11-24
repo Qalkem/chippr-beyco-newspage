@@ -112,14 +112,28 @@ max-width:100px;
  }
  
  .SearchBar p{
-     margin-left:6vh;
-     color:grey;
-    justify-content: center;
-    align-items:center;
- }
+   margin-left:6vh;
+    color:grey;
+   justify-content: center;
+   align-items:center;
+}
 
  .FirstArticle{
+     display: grid;
+     grid-template-columns: repeat(4,25%);
+     grid-template-rows:repeat(4, 25%) ;
  
-     Display:grid;
-     grid-template-columns: 1fr 1fr 1fr;
+ }
+
+ h2{
+     grid-column:2/4 ;
+     grid-row:1/2 ;
+ }
+ h3{
+     grid-column: 2/4;
+     grid-row: 2/3;
+ }
+ h4{
+     grid-column: 2/4;
+     grid-row:3/4 ;
  }
