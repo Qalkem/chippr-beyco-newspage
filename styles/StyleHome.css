@@ -8,6 +8,9 @@ grid-template-columns: 1fr 1fr 1fr;
 .NavTitel{
     display:flex;
     position:fixed;
+    min-width: 207vh;
+    background-color: rgba(241, 241, 241, 0.815);
+    backdrop-filter: blur(10px);
 
 }
 .LogoWrapper{
@@ -25,14 +28,14 @@ max-width:100px;
     display: flex;
     list-style-type: none;
     Gap:40px;
-    margin-left:500px;
+    margin-left:400px;
     margin-bottom: x;
 }
 
 .languageBox{
     
     margin-left: 4vh;
-    color:lightgreen;
+    color: black;
     margin-bottom: 30px;
 }
 
@@ -55,6 +58,7 @@ max-width:100px;
      display:flex;
      color:black;
      
+     
 
  }
 
@@ -71,6 +75,7 @@ max-width:100px;
    
    
    
+   
 }
 
  .SearchBox  p {
@@ -79,4 +84,42 @@ max-width:100px;
  }
  .Welcome{
      margin-top: 6em;
+ }
+
+ .SearchBar{
+     outline: 3px solid #3A8070;
+     margin-top: 5vh;
+     margin-left:140vh;
+     border-radius: 5px;
+     max-width:20vh;
+     justify-content: center;
+     align-items:center;
+     transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+
+
+ }
+ .SearchBar:hover{
+    outline: 5px solid #3A8070; 
+    content: "Y";
+    min-width:20vh;
+    max-width:20vh; 
+    justify-content: center;
+    font-size: 30px;
+    align-items:center;
+    transition: 0.2s;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+
+ }
+ 
+ .SearchBar p{
+     margin-left:6vh;
+     color:grey;
+    justify-content: center;
+    align-items:center;
+ }
+
+ .FirstArticle{
+ 
+     Display:grid;
+     grid-template-columns: 1fr 1fr 1fr;
  }
