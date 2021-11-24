@@ -1,0 +1,159 @@
+body{
+    margin:0;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    
+    }
+    .NavTitel{
+        display:flex;
+        position:fixed;
+        min-width: 207vh;
+        background-color: rgba(241, 241, 241, 0.815);
+        backdrop-filter: blur(10px);
+    
+    }
+    .LogoWrapper{
+    max-width:100px;
+    
+    }
+    .LogoAndLink{
+        display:flex;
+        list-style-type: none;
+        Gap:40px;
+    
+    }
+    
+    .SignUp{
+        display: flex;
+        list-style-type: none;
+        Gap:40px;
+        margin-left:400px;
+        margin-bottom: x;
+    }
+    
+    .languageBox{
+        
+        margin-left: 4vh;
+        color: black;
+        margin-bottom: 30px;
+    }
+    
+    .CoffeeCup{
+        min-width:207.8vh;
+        max-width: 100%;
+        max-height:40vh;
+        margin-top: 10vh;
+        
+    
+    }
+    
+     .SearchBox {
+         outline: 2rem solid rgb(255, 255, 255);
+         background-image:url(/assets/coffee.jfif);
+         justify-content: center;
+         min-width:207.9vh;
+         min-height: 10vh;
+         margin-top: 3em;
+         display:flex;
+         color:black;
+         
+         
+    
+     }
+    
+     
+     .SearchBox > h1{
+         outline: 34px solid white;
+         border-top-left-radius: 0.5px;
+         border-top-right-radius: 0.5px;
+       background-color: white;
+       min-width: 30em;
+       background-size: 40px;
+       justify-content: center;
+       display: flex;
+       
+       
+       
+       
+    }
+    
+     .SearchBox  p {
+         color: #3A8070;
+        
+     }
+     .Welcome{
+         margin-top: 6em;
+     }
+    
+     .SearchBar{
+         outline: 3px solid #3A8070;
+         margin-top: 5vh;
+         margin-left:140vh;
+         border-radius: 5px;
+         max-width:20vh;
+         justify-content: center;
+         align-items:center;
+         transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    
+    
+     }
+     .SearchBar:hover{
+        outline: 5px solid #3A8070; 
+        content: "Y";
+        min-width:20vh;
+        max-width:20vh; 
+        justify-content: center;
+        font-size: 30px;
+        align-items:center;
+        transition: 0.2s;
+        transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    
+     }
+     
+     .SearchBar p{
+       margin-left:6vh;
+        color:grey;
+       justify-content: center;
+       align-items:center;
+    }
+    .FirstArticle{
+        display: grid;
+        grid-template-columns: repeat(4,25%);
+        grid-template-rows:repeat(4, 25%) ;
+        line-height:15;
+      
+    }
+   
+    
+    .FirstArticle h2{
+        grid-column:2/4 ;
+        grid-row:1/2 ;
+        color: #3A8070;
+        line-height:15;
+       
+        
+    }
+    .FirstArticle h3{
+        grid-column: 2/4;
+        grid-row: 2/3;
+        color:grey;
+        line-height:  0;
+        
+        
+     
+    
+    }
+    .FirstArticle h4{
+        grid-column: 2/4;
+        grid-row:3/4 ;
+        line-height: 1;
+        margin-bottom: 1.2em;
+    }
+    .FirstArticle a{
+       grid-column: 2/4;
+       grid-row:4/5 ;
+       margin-top: 1em;
+       color:#3A8070;
+      
+    }

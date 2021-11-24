@@ -8,7 +8,7 @@ grid-template-columns: 1fr 1fr 1fr;
 .NavTitel{
     display:flex;
     position:fixed;
-    min-width: 207vh;
+    min-width: 206vh;
     background-color: rgba(241, 241, 241, 0.815);
     backdrop-filter: blur(10px);
 
@@ -31,13 +31,8 @@ max-width:100px;
     margin-left:400px;
     margin-bottom: x;
 }
-
-.languageBox{
-    
-    margin-left: 4vh;
-    color: black;
-    margin-bottom: 30px;
-}
+ 
+ 
 
 .CoffeeCup{
     min-width:207.8vh;
@@ -52,7 +47,7 @@ max-width:100px;
      outline: 2rem solid rgb(255, 255, 255);
      background-image:url(/assets/coffee.jfif);
      justify-content: center;
-     min-width:207.9vh;
+     min-width:205.4vh;
      min-height: 10vh;
      margin-top: 3em;
      display:flex;
@@ -118,22 +113,38 @@ max-width:100px;
    align-items:center;
 }
 
- .FirstArticle{
+ .FirstArticle, .SecondArticle{
      display: grid;
      grid-template-columns: repeat(4,25%);
      grid-template-rows:repeat(4, 25%) ;
  
  }
 
- h2{
+ .FirstArticle h2, .SecondArticle h2{
      grid-column:2/4 ;
      grid-row:1/2 ;
+     color: #3A8070;
+    
+     
  }
- h3{
+ .FirstArticle h3, .SecondArticle h3{
      grid-column: 2/4;
      grid-row: 2/3;
+     color:grey;
+     line-height:  0;
+     
+  
+ 
  }
- h4{
+ .FirstArticle h4, .SecondArticle h4{
      grid-column: 2/4;
      grid-row:3/4 ;
+     line-height: 1;
+     margin-bottom: 1.2em;
+ }
+ .FirstArticle a, .SecondArticle a{
+    grid-column: 2/4;
+    grid-row:4/5 ;
+    margin-top: 1em;
+    color:#3A8070;
  }
