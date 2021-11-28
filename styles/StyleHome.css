@@ -9,6 +9,8 @@ grid-template-columns: 1fr 1fr 1fr;
 main{
     display:grid;
 }
+
+ 
 .NavTitel{
     display:flex;
     position:fixed;
@@ -35,6 +37,14 @@ min-height:40px ;
 }
  
 a:link { text-decoration: none; }
+ 
+.ForWhom > summary::-webkit-details-marker {
+    display: none;
+    color:green;
+    background-color: blue;
+  }
+ 
+
 
  
 .SignUp{
