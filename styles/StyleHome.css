@@ -127,7 +127,7 @@ a:link { text-decoration: none; }
      margin-bottom: 5em;
  }
 
- .FirstArticle, .SecondArticle{
+ .FirstArticle, .SecondArticle , .ThirdArticle {
      display: grid;
      gap:1px;
      grid-template-columns: repeat(4,25%);
@@ -137,14 +137,14 @@ a:link { text-decoration: none; }
  
  }
 
- .FirstArticle h2, .SecondArticle h2{
+ .FirstArticle h2, .SecondArticle h2 , .ThirdArticle h2{
      grid-column:2/3 ;
      grid-row:1/2 ;
      color: #3A8070;
  
      
  }
- .FirstArticle img , .SecondArticle img
+ .FirstArticle img , .SecondArticle img , .ThirdArticle img
  { 
     grid-column: 3/4;
      grid-row: 1/2;
@@ -152,7 +152,7 @@ a:link { text-decoration: none; }
      margin-top: 2rem;
      margin-left:5em;
  }
- .FirstArticle h3, .SecondArticle h3{
+ .FirstArticle h3 , .SecondArticle h3 , .ThirdArticle h3{
      grid-column: 2/3;
      grid-row: 1/2;
      color:grey;
@@ -163,7 +163,7 @@ a:link { text-decoration: none; }
   
  
  }
- .FirstArticle h4, .SecondArticle h4{
+ .FirstArticle h4, .SecondArticle h4 , .ThirdArticle h4{
      grid-column: 2/3;
      grid-row:2/3 ;
      column-width: auto;
@@ -171,7 +171,7 @@ a:link { text-decoration: none; }
    line-height:normal;
   
  }
- .FirstArticle a, .SecondArticle a{
+ .FirstArticle a, .SecondArticle a , .ThirdArticle a{
     grid-column: 2/4;
     grid-row:3/4 ;
     margin-top: 2em;
