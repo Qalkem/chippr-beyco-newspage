@@ -67,7 +67,7 @@ a:link { text-decoration: none; }
 
  .SearchBox {
      outline: 2rem solid rgb(255, 255, 255);
-     background-image:url(/assets/coffee.jfif);
+     background-image:url(./assets/coffee.jfif);
      justify-content: center;
      min-width:205.4vh;
      min-height: 10vh;
@@ -302,7 +302,7 @@ a:link { text-decoration: none; }
          
          .FirstArticle{
              margin-top:4em;
-             background-image: url(/assets/beyco\ blockchain.png);
+             background-image: url(./assets/beyco\ blockchain.png);
              background-color: #0005; background-blend-mode: darken; 
              background-size: 20em;
              display: flex;
@@ -340,7 +340,7 @@ a:link { text-decoration: none; }
         .SecondArticle  {
            
             margin-top:1em;
-            background-image: url(/assets/BeycoKinderen.jpeg);
+            background-image: url(./assets/BeycoKinderen.jpeg);
             background-color: #0005; background-blend-mode: darken; 
             background-size: 20em;
             display: flex;
@@ -357,7 +357,7 @@ a:link { text-decoration: none; }
            
             margin-top:1em;
             margin-left:2em;
-            background-image: url(/assets/koffiepeople.jpeg);
+            background-image: url(./assets/koffiepeople.jpeg);
             background-color: #0005; background-blend-mode: darken; 
             background-size: 20em;
             display: flex;
