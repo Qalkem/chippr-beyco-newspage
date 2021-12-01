@@ -38,13 +38,12 @@ min-height:40px ;
  
 a:link { text-decoration: none; }
  
-.ForWhom > summary::-webkit-details-marker {
+.ForWhom  summary::-webkit-details-marker {
     display: none;
     color:green;
     background-color: blue;
   }
  
-
 
  
 .SignUp{
@@ -141,7 +140,7 @@ a:link { text-decoration: none; }
      display: grid;
      gap:1px;
      grid-template-columns: repeat(4,25%);
-     grid-template-rows:repeat(4, 25%) ;
+     /* grid-template-rows:repeat(4, 25%) ; */
      align-content: center;
      justify-content: center;
  
@@ -154,38 +153,74 @@ a:link { text-decoration: none; }
  
      
  }
- .FirstArticle img , .SecondArticle img , .ThirdArticle img
+ .FirstArticle img , .SecondArticle img ,
+  .ThirdArticle img
  { 
     grid-column: 3/4;
      grid-row: 1/2;
      max-width: 300px;
-     margin-top: 2rem;
+     margin-top: 1.5rem;
      margin-left:5em;
  }
  .FirstArticle h3 , .SecondArticle h3 , .ThirdArticle h3{
      grid-column: 2/3;
      grid-row: 1/2;
+ 
      color:grey;
      line-height:  1em;
-     margin-top: 4em;
-     
-     
-  
- 
+     margin-top: 5em;
  }
- .FirstArticle h4, .SecondArticle h4 , .ThirdArticle h4{
+ .FirstArticle h4  {
      grid-column: 2/3;
      grid-row:2/3 ;
+     margin-top: -5em;
      column-width: auto;
+     line-height:normal;
+     }
 
-   line-height:normal;
+     .SecondArticle h4 
+  {
+     grid-column: 2/3;
+     grid-row:1/2;
+     margin-top: 10em;
+     column-width: auto;
+     line-height:normal;
+     }
+
+     .ThirdArticle h4{
+        grid-column: 2/3;
+        grid-row:1/2 ;
+         margin-top:8em;
+        column-width: auto;
+        line-height:normal;
+        }
+        
+     
+
   
+ .FirstArticle a {
+    grid-column:2/3 ;
+    grid-row:3/4;
+    margin-bottom: 2em;
+    color:#30443f;
+    
  }
- .FirstArticle a, .SecondArticle a , .ThirdArticle a{
-    grid-column: 2/4;
-    grid-row:3/4 ;
-    margin-top: 2em;
+  
+ .SecondArticle a{
+    grid-column:2/4;
+    grid-row:3/4;
+    margin-bottom: 1em;
     color:#3A8070;
+    
+ 
+ }
+
+ .ThirdArticle a{
+    grid-column: 2/4;
+    grid-row:3/4;
+    margin-bottom: 2em;
+    color:#3A8070;
+    
  
  }
  
