@@ -130,7 +130,10 @@ body{
         grid-column:2/4 ;
         grid-row:1/2 ;
         color: #3A8070;
-        line-height:15;
+        letter-spacing: 3%;
+     font-size:44px;
+     line-height:54px;
+     font-family:"Kumbh Sans";
        
         
     }
@@ -138,17 +141,32 @@ body{
         grid-column: 2/4;
         grid-row: 2/3;
         color:grey;
-        line-height:  0;
+        margin-top:-4rem;
+        letter-spacing: 2%;
+        font-size:32px;
+        line-height:54px;
+        font-family:"Kumbh Sans";
         
         
      
     
     }
-    .FirstArticle h4{
+    .FirstArticle p{
         grid-column: 2/4;
         grid-row:3/4 ;
         line-height: 1;
-        margin-bottom: 1.2em;
+         
+        letter-spacing: 2%;
+        font-size:25px;
+        line-height:28px;
+        font-family:"Kumbh Sans";
+        margin-top:-10rem;
+    }
+    .FirstArticle img{
+        margin-left:40em;
+        max-width:15em;
+        grid-column: 4/5;
+        grid-row:4/5 ;
     }
     .FirstArticle a{
        grid-column: 2/4;
