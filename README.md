@@ -9,16 +9,15 @@
  
  
 ## Inhoudsopgave 📖
- 1.Analyse
- 2.Ontwerp
- 3.Bouwfase
- 4.Integreren
- 5.Testen
- 6.Methodes & Principes
- 7.Code afspraken
- 8.Kenmerken
- 9.Bronnen
- 10.Licentie
+ *1.Analyse
+ *2.Ontwerp
+ *3.Bouwfase
+ *4.Integreren
+ *5.Testen
+ *6.Methodes & Principes
+ *7.Code afspraken
+ *9.Bronnen
+ *10.Licentie
  
 
 # Analayse🔎
