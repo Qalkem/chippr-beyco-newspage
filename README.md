@@ -9,7 +9,17 @@
  
  
 ## Inhoudsopgave 📖
-
+ 1.Analyse
+ 2.Ontwerp
+ 3.Bouwfase
+ 4.Integreren
+ 5.Testen
+ 6.Methodes & Principes
+ 7.Code afspraken
+ 8.Kenmerken
+ 9.Bronnen
+ 10.Licentie
+ 
 
 # Analayse🔎
 Ik hebben Als doel om een nieuwspagina te bouwen voor https://www.Beyco.nl aangezien 
@@ -95,12 +105,6 @@ Genoeg wit ruimte
 Content van de actuele website van Beyco
 Een living styleguide (Responsive)
 
-
-
-
-## Installatie
-
-## Gebruik
 
 ## Bronnen
 https://www.w3schools.com/ 
