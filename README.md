@@ -9,7 +9,7 @@
  
  
 ## Inhoudsopgave 📖
- *1.Analyse
+ *1.Analyse*
  *2.Ontwerp
  *3.Bouwfase
  *4.Integreren
