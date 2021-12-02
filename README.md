@@ -54,6 +54,8 @@ Dit was dus de puntjes op de i van mijn ontwerp.
 # Bouwfase 👷
  Bij de bouwfase heb ik alles gebouwed volgens de conclusies die heb ik heb 
  kunnen realiseren bij de analyse en ontwerp.
+ ![image](https://user-images.githubusercontent.com/76013244/144517063-49d033a3-b80b-4c96-ba95-93933138400a.png)
+
  
 
 # Integreren
