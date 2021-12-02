@@ -1,6 +1,7 @@
 
 
 #  Welcome to Beyco News!
+![image](https://user-images.githubusercontent.com/76013244/144517322-8bacfd54-2191-4d06-9952-a7c28986170d.png)
 
  
 ## Beschrijving 🧾
@@ -55,7 +56,7 @@ Dit was dus de puntjes op de i van mijn ontwerp.
  Bij de bouwfase heb ik alles gebouwed volgens de conclusies die heb ik heb 
  kunnen realiseren bij de analyse en ontwerp.
  ![image](https://user-images.githubusercontent.com/76013244/144517063-49d033a3-b80b-4c96-ba95-93933138400a.png)
- ![image](https://user-images.githubusercontent.com/76013244/144517248-26de3e62-95b3-4c2f-8619-bdb962453efc.png)
+![image](https://user-images.githubusercontent.com/76013244/144517406-4e12334c-5704-4a20-b89b-9cf8569e42e2.png)
 
 
  
