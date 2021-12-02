@@ -77,6 +77,8 @@ Divergeren en Convergeren
 Kleur contrast
 HTMl Tester 
 Lighthouse
+![image](https://user-images.githubusercontent.com/76013244/144518491-dacf0f73-7093-427e-8668-212c8180b9b2.png)
+
 A11Y checklist
 Color contrast Analyser
 Semantiek
