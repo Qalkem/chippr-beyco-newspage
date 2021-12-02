@@ -55,6 +55,8 @@ Dit was dus de puntjes op de i van mijn ontwerp.
  Bij de bouwfase heb ik alles gebouwed volgens de conclusies die heb ik heb 
  kunnen realiseren bij de analyse en ontwerp.
  ![image](https://user-images.githubusercontent.com/76013244/144517063-49d033a3-b80b-4c96-ba95-93933138400a.png)
+ ![image](https://user-images.githubusercontent.com/76013244/144517248-26de3e62-95b3-4c2f-8619-bdb962453efc.png)
+
 
  
 
