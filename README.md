@@ -49,7 +49,13 @@ Dit was dus de puntjes op de i van mijn ontwerp.
 
 # Integreren
 
+Bij de fase integreren was het belangrijk op de nieuwspagina 
+zelf te evalueren. Dit betreft dus alle linksen artikelen te 
+clicken. Op zich was het belangrijk bij integreren om te checken
+of alles werkt zoals bedoeld.
+
 # Testen🚀
+Bij testen heb ik de website gepushed en zelf getest.
 
 ## Methodes en principes
 Dev Life Cycle
