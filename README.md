@@ -101,7 +101,41 @@ Visuele Hierarchie
 - Goede leesbaarheid hanteren
 - geen cijfers in ID
 - Een zin heeft maximaal 12 woorden voor de breakpoint.
-
+<table>
+    <tr>
+        <td colspan="4"><b>Week 1</b></td>
+    </tr>
+    <tr>
+        <td>Maandag</td>
+        <td>6 December</td>
+        <td>13:00 uur *</td>
+        <td>Briefing</td>
+    </tr>
+    <tr>
+        <td>Dinsdag</td>
+        <td>7 December</td>
+        <td>13:00 uur *</td>
+        <td>Debriefing</td>
+    </tr>
+    <tr>
+        <td colspan="4"><b>Week 2</b></td>
+    </tr>
+    <tr>
+        <td>Dinsdag, woensdag of donderdag</td>
+        <td>14 December</td>
+        <td>13:00 uur *</td>
+        <td>Feedbacksessie</td>
+    </tr>
+    <tr>
+        <td colspan="4"><b>Week 3</b></td>
+    </tr>
+    <tr>
+        <td>Donderdag</td>
+        <td>23 December</td>
+        <td>13:00 uur *</td>
+        <td>Oplevering</td>
+    </tr>
+</table>
 ## Kenmerken 🎛️
 Kleuren en lettertypes volgens de styleguide van Beyco.nl
 Huisstijl van mijn https://www.beyco.nl
